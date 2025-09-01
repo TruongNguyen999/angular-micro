@@ -5,7 +5,9 @@
     "target": "es2022",
     "module": "preserve",
     "lib": ["es2020", "dom"],
-    "paths": {},
+    "paths": {
+      "mfeOrders/Routes": ["mfeOrders/src/app/remote-entry/entry.routes.ts"]
+    },
     "isolatedModules": true
   },
   "angularCompilerOptions": {
